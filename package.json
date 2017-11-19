@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testing js and node",
+  "main": "servce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomitomasino/test.git"
+  },
+  "keywords": [
+    "js",
+    "node"
+  ],
+  "author": "tomasino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomitomasino/test/issues"
+  },
+  "homepage": "https://github.com/tomitomasino/test#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
