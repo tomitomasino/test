@@ -1,5 +1,5 @@
 
-var result = function (app) {
+var api = function (app) {
     app.get('/api/getResult', function (req, res) {
         sleep(3000).then(() => {
             res.write('hello');
@@ -8,7 +8,7 @@ var result = function (app) {
     });
 }
 
-module.exports = result;
+module.exports = api;
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
